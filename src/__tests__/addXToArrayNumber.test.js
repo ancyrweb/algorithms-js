@@ -1,6 +1,6 @@
 const fn = require("../addXToArrayNumber");
 
-it("should add one to the array", () => {
+it("should add x to the array", () => {
   expect(fn([], 1)).toEqual([1]);
   expect(fn([0], 1)).toEqual([1]);
   expect(fn([1], 1)).toEqual([2]);
